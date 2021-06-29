@@ -14,4 +14,21 @@ Type the command
 
 `sh docker-shell.sh` 
 
+## Starting the dev API Server
+Type the command inside the docker container prompt
+
+`uvicorn_server` 
+
+
+## Testing APIs
+Go to `http://localhost:9500/` on your browser and you should see:
+
+```
+{"message":"Welcome to the API Service"}
+```
+
+Go to `http://localhost:9500/docs` on your browser and you should see the Swagger UI Documentation for the APIs
+
+
+
 
